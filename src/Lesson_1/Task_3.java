@@ -19,6 +19,7 @@ public class Task_3 {
 
         System.out.println(appleBox.compare(orangeBox));
 
+        appleBox.clear();
         appleBox.putAll(orangeBox);
     }
 }
@@ -62,7 +63,7 @@ class Box<T extends Fruit> {
 
     public double getWeight() {
         double boxWeight = 0;
-        for (T fruit : this.fruitsInside) {
+        for (Fruit fruit : this.fruitsInside) {
             boxWeight += fruit.getWeight();
         }
         return boxWeight;
