@@ -5,13 +5,12 @@ import java.util.List;
 
 public class Task_3 {
     public static void main(String[] args) {
-        Box<Fruit> appleBox = new Box<>();
-        Box<Fruit> orangeBox = new Box<>();
+        Box<Apple> appleBox = new Box<>();
+        Box<Orange> orangeBox = new Box<>();
 
         appleBox.put(new Apple(1.0));
         appleBox.put(new Apple(1.3));
         appleBox.put(new Apple(2));
-        appleBox.put(new Orange(2));
 
         orangeBox.put(new Orange(2.3));
         orangeBox.put(new Orange(2));
