@@ -20,7 +20,7 @@ public class Task_3 {
         System.out.println(appleBox.compare(orangeBox));
 
         appleBox.clear();
-        appleBox.putAll(orangeBox);
+//        appleBox.putAll(orangeBox);
     }
 }
 
